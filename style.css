@@ -1,0 +1,338 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav{background-color: sienna;
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    justify-content: space-between;
+    position: fixed;
+    align-items: center;
+    
+}
+
+.logo{
+  margin-top: 10px;
+  margin-left: 50px;  
+}
+.logo a{
+    color:darkblue;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+ul{
+    display: flex;
+}
+
+ul li{
+    list-style-type: none;
+    margin-top: 35px; 
+    padding-right: 40px;  
+}
+
+ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20;
+    padding: 10px;
+    margin-right: 40px;
+    }
+
+ul li a:hover{
+    color: aqua;
+}
+.navbarbutton{
+    margin-top:60px ;
+    margin-right:;
+    width:200px ;
+    height: 30px;
+
+}
+.navbarbutton a{
+    text-decoration: none;
+    color:rgb(226, 234, 243);
+    background-color:orangered;
+    border-color:orangered ;
+    border-radius: 10px;
+
+}
+.navbarbutton :hover{
+    color: rgb(9, 216, 216);
+    }
+
+
+    .hero{
+        background-color:rgb(122, 129, 127) ;
+        height: 70vh;
+        width: cover;
+        
+    }
+
+   .hero img{
+        border-radius:50%;
+        float: right;
+        margin-top: 150px;
+        margin-right: 200px;
+    }
+    
+    #container{
+        background-color:rgb(122, 129, 127);
+        height: 75vh;
+    }
+    .herochild-img{
+float: left;
+padding-left: 350px;
+margin-top:45px ;
+border-radius: 50%;
+    }
+
+    .text{
+        margin-left: 120px;
+        padding-top:250px ;
+    }
+    h1{ 
+        color: orangered; 
+      font-weight: bolder;
+      margin-left: 180px;
+      font-size: xx-large;
+       
+    }
+   h2{
+    font-size: 35px;
+    font-weight: bolder;
+    padding: 20px;
+   }
+   .hero button{
+    margin-left: 300px;
+    height: 20px;
+    width:90px ;
+    background-color: orangered;
+    border-radius: 10px;
+    border-color: orangered;
+
+   }
+   .hero button a{
+    text-decoration: none;
+    color: aliceblue;
+   }
+    
+.herochild{
+    padding-left: 50%;
+    padding-top: 35px;   
+}
+
+.herochild h1{
+    font-weight: bolder;
+}
+.herochild h1 a{
+    text-decoration: none;
+    color: orangered;
+}
+.herochild h1 a:hover{
+    color: aqua;
+}
+.herochild p{
+    color: black;
+    padding: 5px;
+    font-size: large;
+    
+}
+.progressbar{
+
+    padding: 10px;
+    padding-left: 50%;
+    color: black;
+    font-size: x-small;
+    
+    
+}
+#file{
+    width: 450px;
+    height: 3px;
+    padding:10px;
+     }
+     
+     #services{
+        background-color: rgb(58, 53, 53);
+     }
+    
+     .services h2{
+    margin-top: 50px;
+    padding-left: 400px; 
+    }
+    .services h2 a{
+        color: orangered;
+        text-decoration: none;
+        padding-left:200px;
+        
+
+    }
+    .services h2 :hover{
+        color:aqua;
+    }
+    .services p{
+        padding-left:400px ;
+        color:aliceblue;
+    }
+.service-text{
+    display: flex;
+    padding: 30px;
+    margin-left: 250px;
+}
+.service-text button{
+    width: 170px;
+    height: 200px;
+    margin-left:  20px;
+    border-radius: 8px;
+    background-color: aliceblue;
+    align-content: center;
+}
+button h4{
+    font-size: 15px;
+    font-weight: bolder;
+    color: black;
+}
+button p{
+    color: black;
+}
+
+ 
+.project h3{
+    padding-top:50px ;
+    padding-left: 600px;
+    
+   
+}
+
+.project a{
+    text-decoration: none;
+    color:orangered;
+    font-size: 35px;
+    font-weight: bolder;
+   
+
+}
+
+.project h3 :hover{
+   color:aqua;
+}
+.project p{
+    color: aliceblue;
+    font-size: 15px;
+    padding-left: 400px;
+    padding-top: 20px;
+}
+.project-design{
+    display: flex;
+    padding: 30px;
+    margin-left: 150px;
+    text-align: center;
+}
+.project-design a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.project-design button{
+    height: 25px;
+    width: 200px;
+    border-radius: 9px;
+    margin-left: 10px;
+    
+}
+
+ .project-img{
+    align-items: center;
+    padding-left: 250px;
+    padding-top: 50px;
+    
+ } 
+ .project-img button{
+    margin-left: 18px;
+    background-color: rgba(49, 48, 48, 0.479);
+    border: none;
+ }       
+
+#design{
+    margin-left: 370px;
+    padding-top: 100px;
+
+}
+#design h3{
+    padding-left:130px;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+#design h3 a{
+    text-decoration: none;
+    color: orangered;
+}
+#design h3 :hover{
+    color: aqua;
+}
+ #design p{
+    color: aliceblue;
+    padding: 15px;
+    margin-left:60px ;
+}
+#design input{
+color: black;
+margin-left: 80px;
+margin-top: 80px;
+width: 250px;
+height: 23px;
+border-radius: 6px;
+border: none;
+
+}
+#design label {
+    color: aliceblue;
+    padding: 30px;
+
+
+}
+#design label button{
+    width: 100px;
+    height: 23px;
+    border-radius: 6px;
+    border: none;
+}
+#design label button a{
+    color: black;
+    text-decoration: none;
+}
+
+.icons{
+    display: flex;
+    margin-left: 180px;
+}
+.icons img{
+    padding: 15px;
+    padding-top: 20px;
+}
+#footer{
+    background-color: rgb(39, 38, 38);
+    height: 8vh;
+    padding-left: 500px;
+    align-content: center;
+    list-style-type: none;
+    font-style: oblique;
+    
+}
+#footer p a{
+  text-decoration: none;
+  color: aliceblue;  
+}
+
+
+    
+    
+    
+    
+
