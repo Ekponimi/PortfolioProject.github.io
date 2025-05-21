@@ -1,7 +1,36 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
+/* Default styles (desktop-first) */
+.container {
+  display: flex;
+  padding: 40px;
+}
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .container {
+    padding: 20px;
+    flex-direction: column;
+  }
+}
+
+/* Phones */
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
 .nav{background-color: sienna;
     display: flex;
     height: 10vh;
@@ -52,20 +81,7 @@ ul li a:hover{
     height: 30px;
 
 }
-.navbarbutton a{
-    text-decoration: none;
-    color:rgb(226, 234, 243);
-    background-color:orangered;
-    border-color:orangered ;
-    border-radius: 10px;
-
-}
-.navbarbutton :hover{
-    color: rgb(9, 216, 216);
-    }
-
-
-    .hero{
+ .hero{
         background-color:rgb(122, 129, 127) ;
         height: 70vh;
         width: cover;
@@ -322,7 +338,7 @@ border: none;
     padding-left: 500px;
     align-content: center;
     list-style-type: none;
-    font-style: oblique;
+    font-size: small;
     
 }
 #footer p a{
