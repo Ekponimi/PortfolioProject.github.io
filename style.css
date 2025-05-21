@@ -3,27 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-/* Default styles (desktop-first) */
-.container {
-  display: flex;
-  padding: 40px;
-}
 
-/* Tablets */
-@media (max-width: 1024px) {
-  .container {
-    padding: 20px;
-    flex-direction: column;
-  }
-}
-
-/* Phones */
-@media (max-width: 600px) {
-  .container {
-    padding: 10px;
-    font-size: 14px;
-  }
-}
 
 .container {
   width: 100%;
@@ -340,9 +320,7 @@ border: none;
 .icons img{
     padding: 15px;
     padding-top: 20px;
-    max-width: 100%;
-height: auto;
-display: block;
+    
 }
 #footer{
     background-color: rgb(39, 38, 38);
@@ -356,6 +334,98 @@ display: block;
 #footer p a{
   text-decoration: none;
   color: aliceblue;  
+}
+
+/* ============================= */
+/* 📱 Responsive Media Queries  */
+/* ============================= */
+
+/* Extra small devices (phones, <576px) */
+@media (max-width: 575.98px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero img {
+    width: 100px;
+  }
+
+  .herochild-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .service-text, .project-design, .project-img {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-text button,
+  .project-img button {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+
+  input[type="email"] {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+}
+
+/* Small devices (phones landscape, ≥576px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .hero {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-text,
+  .project-img {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .service-text button,
+  .project-img button {
+    width: 45%;
+    margin: 10px;
+  }
+}
+
+/* Medium devices (tablets, ≥768px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .hero, .service-text, .project-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .service-text button,
+  .project-img button {
+    width: 45%;
+    margin: 10px;
+  }
+}
+
+/* Large devices (desktops, ≥992px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .service-text,
+  .project-img {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
+/* Extra large devices (large desktops, ≥1200px) */
+@media (min-width: 1200px) {
+  /* Add any enhancements for very large screens if needed */
 }
 
 
